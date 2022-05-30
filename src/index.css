@@ -1,0 +1,95 @@
+html {
+  font-size: 16px;
+  font-family: 'Bebas Neue', cursive;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, 
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+button, span,body{
+  margin: 0;
+  padding: 0;
+}
+
+button{
+  border: none;
+  margin: 0;
+ 
+}
+
+.App{
+
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.quotebox-container{
+
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 5px;
+  width: min(400px, 100%);
+  box-shadow: 1px 1px 1px 1px  rgb(0, 0, 0);
+}
+
+.quotebox-txt{
+font-size: large;
+padding: 0;
+}
+.quotebox-txt span{
+  font-size: 50px;
+  }
+
+.quotebox-author {
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+margin: 2px;
+}
+
+.quotebox-btn{
+border: none;
+font-size: 25px;
+ border-radius: 50%;
+ aspect-ratio: 1;
+ width: 30px;
+ cursor: pointer;
+ box-shadow: 1px 1px 5px 0 #000;
+ color: white;
+
+}
+
+.quotebox-btn:active{
+  box-shadow:  0 0 0 0 #000;
+  transition: box-shadow 200ms ease ;
+  font-size: 26px;
+color: white;
+  width: 31px;
+  aspect-ratio: 1;
+}
+
+
+.quotebox-btn:hover{
+  color: white;
+
+  font-size: 26px;
+  width: 31px;
+  aspect-ratio: 1;
+}
+  
+
+.btn-container{
+  display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+
